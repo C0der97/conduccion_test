@@ -1,0 +1,17 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "hero-driving",
+      "description": "Colombian roads with transit signals",
+      "imageUrl": "https://picsum.photos/seed/ruta1/1200/600",
+      "imageHint": "driving road"
+    },
+    {
+      "id": "transit-agent",
+      "description": "Traffic officer directing traffic",
+      "imageUrl": "https://picsum.photos/seed/ruta2/400/300",
+      "imageHint": "traffic police"
+    }
+  ]
+}
