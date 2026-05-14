@@ -71,7 +71,6 @@ export default function SimulatorPage() {
 
   return (
     <div className="min-h-screen bg-[#F1F4F6] pb-20">
-      {/* Header */}
       <header className="bg-white border-b border-slate-200 sticky top-0 z-50">
         <div className="max-w-4xl mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2 cursor-pointer" onClick={() => router.push('/')}>
@@ -95,7 +94,6 @@ export default function SimulatorPage() {
         </div>
       </header>
 
-      {/* Main Simulator */}
       <div className="max-w-4xl mx-auto px-4 pt-8 space-y-6">
         <div className="flex items-center justify-between gap-4">
           <div className="flex-1">
@@ -114,7 +112,6 @@ export default function SimulatorPage() {
           />
         </div>
 
-        {/* Navigation Buttons */}
         <div className="flex items-center justify-between pt-4">
           <Button 
             variant="ghost" 
@@ -145,11 +142,10 @@ export default function SimulatorPage() {
           )}
         </div>
 
-        {/* Instructions Alert */}
         <div className="p-4 bg-blue-50 border border-blue-100 rounded-xl flex gap-3 text-sm text-blue-800">
           <AlertTriangle className="w-5 h-5 shrink-0 text-blue-500" />
           <p>
-            <strong>Aviso de Simulación:</strong> Este examen compila las preguntas más frecuentes del RUNT. Para aprobar oficialmente en una escuela de conducción, usualmente se requiere un puntaje superior al 90%.
+            <strong>Aviso de Simulación:</strong> Este examen compila las preguntas más frecuentes del RUNT. Para aprobar oficialmente, se requiere un puntaje superior al 90%.
           </p>
         </div>
       </div>
