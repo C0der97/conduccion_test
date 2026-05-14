@@ -2,7 +2,7 @@
 "use client";
 
 import { useState } from "react";
-import { Question } from "@/src/app/lib/questions";
+import { Question } from "@/app/lib/questions";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";

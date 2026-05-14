@@ -3,10 +3,10 @@
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { QUESTIONS } from "@/src/app/lib/questions";
-import { QuizCard } from "@/src/components/quiz/QuizCard";
-import { ProgressTracker } from "@/src/components/quiz/ProgressTracker";
-import { QuizResults } from "@/src/components/quiz/QuizResults";
+import { QUESTIONS } from "@/app/lib/questions";
+import { QuizCard } from "@/components/quiz/QuizCard";
+import { ProgressTracker } from "@/components/quiz/ProgressTracker";
+import { QuizResults } from "@/components/quiz/QuizResults";
 import { Button } from "@/components/ui/button";
 import { 
   ChevronLeft, 
