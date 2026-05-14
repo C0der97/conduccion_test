@@ -22,7 +22,7 @@ export default function SimulatorPage() {
   const [currentIdx, setCurrentIdx] = useState(0);
   const [answers, setAnswers] = useState<Record<string, string>>({});
   const [isFinished, setIsFinished] = useState(false);
-  const [timeLeft, setTimeLeft] = useState(1800); // 30 minutes in seconds
+  const [timeLeft, setTimeLeft] = useState(1800); // 30 minutes
 
   useEffect(() => {
     if (isFinished) return;
@@ -140,13 +140,6 @@ export default function SimulatorPage() {
               <ChevronRight className="w-5 h-5 ml-2" />
             </Button>
           )}
-        </div>
-
-        <div className="p-4 bg-blue-50 border border-blue-100 rounded-xl flex gap-3 text-sm text-blue-800">
-          <AlertTriangle className="w-5 h-5 shrink-0 text-blue-500" />
-          <p>
-            <strong>Aviso de Simulación:</strong> Este examen compila las {QUESTIONS.length} preguntas más frecuentes del RUNT. Para aprobar oficialmente, se requiere un puntaje superior al 90%.
-          </p>
         </div>
       </div>
     </div>
