@@ -1,4 +1,3 @@
-'use server';
 /**
  * @fileOverview A Genkit flow that acts as an AI-powered legal advisor for the Colombian traffic law exam.
  * It explains the reasoning behind correct answers, referencing the Colombian National Traffic Code.
