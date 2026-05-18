@@ -1,13 +1,14 @@
 import type {NextConfig} from 'next';
 import path from 'path';
 
+const REPO_NAME = 'conduccion_test';
 const isGithubPages = process.env.NODE_ENV === 'production';
 
 const nextConfig: NextConfig = {
   output: 'export',
   trailingSlash: true,
-  basePath: isGithubPages ? '/conduccion_test' : '',
-  assetPrefix: isGithubPages ? '/conduccion_test/' : '',
+  basePath: isGithubPages ? `/${REPO_NAME}` : '',
+  assetPrefix: isGithubPages ? `/${REPO_NAME}/` : '',
   images: {
     unoptimized: true,
     remotePatterns: [
