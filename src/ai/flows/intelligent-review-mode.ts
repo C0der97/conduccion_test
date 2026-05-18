@@ -1,4 +1,3 @@
-'use server';
 /**
  * @fileOverview A Genkit flow for generating personalized practice questions based on a user's quiz performance.
  *
